@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Minuta4j</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../assets/stylesheet/style.css">
+    </head>
+    <body>
+		<div class="breadcrumb">
+			<a href="menu.html"><i class="ss-home"></i> Menu /</a>
+			<a href="menu_templates.html"><i></i> Templates /</a>
+			<h2>Novo</h2>
+		</div>		
+		<section class="content container">
+			<h4>Novo Template</h4>
+			<div>
+				<div class="mgbttn">
+					<div class="row">
+						<p class="span9">
+							<label>Nome do Template</label>
+							<input value="FICHA CADASTRAL" type="text">
+						</p>						
+							<p class="span3">
+								<label>Tipo</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="1" selected>ESTÁTICO</option>
+									<option value="2">DINÂMICO</option>
+								</select>
+							</p>
+							
+					</div>					
+					<div class="row">						
+							<p class="span4">
+								<label>Quantidade de P&aacute;ginas</label>
+								<input type="text" value="1">
+							</p>
+							<p class="span4">
+								<label>Orienta&ccedil;&atilde;o</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="P">PAISAGEM</option>
+									<option value="R" selected>RETRATO</option>
+								</select>
+							</p>
+							<p class="span4">
+								<label>Página</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="1">CARTA</option>
+									<option value="2" selected>A4</option>
+								</select>
+							</p>
+					</div>	
+					<div class="row">
+						<p>
+							<a href="javascript:void(0)" class="btn">Copiar Template</a>
+						</p>
+					</div>				
+				</div>			
+			
+			<div class="mgtp">
+					<h5>CONTE&Uacute;DO</h5>
+					<div class="row">
+						<p>
+							<a href="composicao_template.html" class="btn">Composi&ccedil;&atilde;o</a>
+							<a href="../ckeditor/samples/index.html" class="btn">Escrever Conte&uacute;do</a>
+						</p>
+					</div>
+				</div>				
+				<div class="mgtp">
+					<h5>CABE&Ccedil;ALHO</h5>
+					<div class="row">
+						<p>
+							<a href="composicao_template.html" class="btn">Composi&ccedil;&atilde;o</a>
+							<a href="../ckeditor/samples/index.html" class="btn">Escrever Cabe&ccedil;alho</a>
+						</p>
+					</div>
+				</div>				
+				<div class="mgtp">
+					<h5>RODAP&Eacute;</h5>
+					<div class="row">
+						<p class="row">
+							<a href="composicao_template.html" class="btn">Composi&ccedil;&atilde;o</a>
+							<a href="../ckeditor/samples/index.html" class="btn">Escrever Rodap&eacute;</a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+						<p>
+							<a href="javascript:download();" class="btn confirm">Visualizar Template</a>
+							<a href="javascript:downloadXML();" class="btn confirm">Exportar XML</a>
+						</p>
+					</div>
+				<footer class="button_group">
+					<p class="pull-right"><a href="menu_templates.html" class="btn confirm big">Confirmar</a></p>
+					<p><a href="menu_templates.html" class="btn confirm big">Retornar</a></p>
+				</footer>
+				<input id="inputPhoto"
+					   type="file"
+					   accept="image/*"
+					   style="display:none;" />
+			</div>
+		</section>
+        <script src="../assets/scripts/jquery.js"></script>
+		<script src="../assets/scripts/plugins/angular.js"></script>
+		<script src="../assets/scripts/minuta4j.js"></script>
+		<script src="../assets/scripts/plugins/picker.js"></script>
+        <script src="../assets/scripts/plugins/picker.date.js"></script>
+		<script src="../assets/scripts/app.js"></script>
+    </body>
+</html>

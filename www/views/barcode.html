@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Minuta4j</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../assets/stylesheet/style.css">
+    </head>
+    <body>
+		<div class="breadcrumb">
+			<a href="menu.html"><i class="ss-home"></i> Menu /</a>
+			<h2>Código de Barras</h2>
+		</div>		
+		<section class="content container">
+			<h4>Código de Barras</h4>
+			<div>
+				<div class="mgbttn">
+					<div class="row">
+						<p class="span5">
+							<label>Nome</label>
+							<input value="CODIGO DE BARRAS REGRA CONTRATO" type="text">
+						</p>						
+							<p class="span3">
+								<label>Tamanho</label>
+								<input type="text" value="17">
+							</p>
+							<p class="span4">
+								<label>TIPO</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="1" selected>CODE128</option>
+									<option value="2">EAN</option>
+								</select>
+							</p>
+					</div>	
+					<div>
+						<p>
+							<p class="checkarea">
+									<input type="checkbox" ng-model="item.isMap">
+									<span>Exibir número do código de barras</span>
+								</p>
+						</p>						
+					</div>								
+				</div>			
+			
+			<div class="mgtp">
+					<h5>COMPOSIÇÃO</h5>
+					<div class="well mgbttn">
+					<div class="row">
+							<p class="span3">
+								<label>POSIÇÃO INICIAL</label>
+								<input value="1" type="text">
+							</p>
+							<p class="span3">
+								<label>POSIÇÃO FINAL</label>
+								<input value="10" type="text">
+							</p>
+							<p class="span3">
+								<label>VARIÁVEL</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="1" selected>PROPOSTA ADP</option>
+									<option value="2">PERCENTUAL</option>
+								</select>
+							</p>
+							<p class="span3">
+								<label>CÁLCULO</label>
+								<select>
+									<option value="" selected>SELECIONE</option>
+									<option value="1">MÓDULO 11</option>
+									<option value="2">MÓDULO 12</option>
+								</select>
+							</p>				
+					</div>	
+					</div>		
+					<div class="well mgbttn">
+					<div class="row">
+							<p class="span3">
+								<label>POSIÇÃO INICIAL</label>
+								<input value="10" type="text">
+							</p>
+							<p class="span3">
+								<label>POSIÇÃO FINAL</label>
+								<input value="11" type="text">
+							</p>
+							<p class="span3">
+								<label>VARIÁVEL</label>
+								<select>
+									<option value="" selected>SELECIONE</option>
+									<option value="1">PROPOSTA ADP</option>
+									<option value="2">PERCENTUAL</option>
+								</select>
+							</p>
+							<p class="span3">
+								<label>CÁLCULO</label>
+								<select>
+									<option value="">SELECIONE</option>
+									<option value="1" selected>MÓDULO 11</option>
+									<option value="2">MÓDULO 12</option>
+								</select>
+							</p>				
+					</div>	
+					</div>		
+				</div>		
+				<div class="row">
+						<p>
+							<a href="javascript:void(0)" class="btn">Adicionar</a>
+						</p>
+					</div>					
+				<footer class="button_group">
+					<p class="pull-right"><a href="menu.html" class="btn confirm big">Confirmar</a></p>
+					<p><a href="menu.html" class="btn confirm big">Retornar</a></p>
+				</footer>
+				<input id="inputPhoto"
+					   type="file"
+					   accept="image/*"
+					   style="display:none;" />
+			</div>
+		</section>
+        <script src="../assets/scripts/jquery.js"></script>
+		<script src="../assets/scripts/plugins/angular.js"></script>
+		<script src="../assets/scripts/minuta4j.js"></script>
+		<script src="../assets/scripts/plugins/picker.js"></script>
+        <script src="../assets/scripts/plugins/picker.date.js"></script>
+		<script src="../assets/scripts/app.js"></script>
+    </body>
+</html>
